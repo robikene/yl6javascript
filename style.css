@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+section, div {
+    padding: 15px;
+}
+
+hr {
+    padding-top: 20px;
+}
+
+h3 { 
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    margin: 2px;    
+}
+
+.box {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+p, label, form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    margin: 2px;
+}
+
+#form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-field label {
+  display: inline-block;
+  width: 115px;
+  text-align: right;
+}
+
+#dropdown {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+/* Minu looming (Küll aga netist inspireerituna) */
+.radiobuttons {
+    position: relative;
+    padding-left: 1%;
+}
+  
+  /* Kaotab koledad tavanupud ära */
+.radiobuttons input {
+    position: absolute;
+    opacity: 0;
+}
+  
+/* Uus ilusam nupp asemele */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #eee;
+    border-radius: 75%;
+}
+  
+.radiobuttons:hover input ~ .checkmark {
+    background-color: black;
+}
+  
+.radiobuttons input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.hind {
+    float: right;
+}
+
+#calc {
+    margin-left: 25px;
+}
+
+#clock {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+    color: red;
+}
+
+input[type=submit] {
+    background-color: #008000;
+    color: #FFF;
+    border-radius: 15px;
+    border: none;
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#map {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
