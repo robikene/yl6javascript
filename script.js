@@ -15,7 +15,7 @@
             let date = new Date();
             let h = date.getHours();
             let m = date.getMinutes();
-            let s = date.getSeconds()+1;
+            let s = date.getSeconds();
 
             if (h < 10) {
                 h = "0" + h;
